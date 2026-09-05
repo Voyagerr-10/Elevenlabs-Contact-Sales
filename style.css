@@ -30,6 +30,8 @@ body {
 /* Left Sales Panel */
 
 .sales-panel {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     min-height: 100vh;
     padding: 28px 56px 56px 56px;
@@ -112,6 +114,13 @@ body {
     filter: brightness(0) invert(1);
 }
 
+.bottom-image {
+    width: calc(100% + 112px);  /* Adjust the width to cover the full width of the viewport */
+    height: auto;
+    margin-top: auto;
+    margin-left: -56px;
+    margin-bottom: -56px;
+}
 
 /* Right Form Panel */
 
