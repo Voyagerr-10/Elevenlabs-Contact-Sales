@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
+
     <title>ElevenLabs Contact Sales Form</title>
 </head>
-<body style="display: flex; flex: 1; flex-direction: row; margin: 0; padding: 0;">
 
-    <div id="Contents-1" style="background-color: rgb(37, 37, 37); color: white; width: 100vw; height: 100vh;">
+<body>
 
-        <img src="elevenlabs-logo-white.svg" alt="ElevenLabs logo" width="100px" height="100px">
+    <section class="sales-panel">
+
+        <img
+            class="logo"
+            src="elevenlabs-logo-white.svg"
+            alt="ElevenLabs logo"
+        >
+
         <h1>Contact our sales team</h1>
 
         <div class="feature-list">
+
             <div class="feature">
-                <img src="rocket.svg" alt="Pricing">
+                <img src="rocket.svg" alt="">
                 <p>Custom pricing and elevated concurrency</p>
             </div>
+
             <div class="feature">
-                <img src="shield.svg" alt="Security">
+                <img src="shield.svg" alt="">
                 <p>Enterprise-grade security including SOC II, GDPR and HIPAA compliance</p>
             </div>
+
             <div class="feature">
-                <img src="enterprise.svg" alt="Enterprise">
+                <img src="enterprise.svg" alt="">
                 <p>Enterprise support and SLAs</p>
             </div>
+
         </div>
 
-        <p class="trusted-text">Trusted by 10,000+ leading businesses</p>
+        <p class="trusted-text">
+            Trusted by 10,000+ leading businesses
+        </p>
 
         <div class="company-logos">
             <img src="cisco.png" alt="Cisco">
@@ -39,40 +54,83 @@
         </div>
 
         <div class="review">
+
             <div class="stars">
-                <img src="star.png" alt="Star">
-                <img src="star.png" alt="Star">
-                <img src="star.png" alt="Star">
-                <img src="star.png" alt="Star">
-                <img src="star.png" alt="Star">
+                <img src="star.png" alt="">
+                <img src="star.png" alt="">
+                <img src="star.png" alt="">
+                <img src="star.png" alt="">
+                <img src="star.png" alt="">
             </div>
 
             <p>4.5 stars and 1,059+ reviews</p>
-        </div>
-    </div>
 
-    <div id="Contents-2">
-        <div style="width: 30vw;">
-            <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 1px;">
-                <h1 style="margin: 0px 0px; font-size: 30px; font-weight: 500;">
-                    Contact sales form
-                </h1>
-                <p style="margin: 10px 0px; font-family:Arial, Helvetica, sans-serif; font-size: 14px; color: rgb(110, 110, 110)">
+        </div>
+
+    </section>
+
+
+    <section class="form-panel">
+
+        <div class="form-container">
+
+            <div class="form-header">
+                <h1>Contact sales form</h1>
+
+                <p>
                     Please fill out the form below to get started
                 </p>
             </div>
-            <div style="display: flex; flex-direction: column; align-items: flex-start;">
-                <label for="company-website" style="font-size: 15px;">Company Website</label>
-                <input id="company-website" type="text" name="company-website" placeholder="Company Website">
-                <label for="business-email" style="font-size: 15px;">Business Email</label>
-                <input type="email" id="business-email" name="business-email" placeholder="admin@100xdevs.com">
+
+
+            <form class="sales-form">
+
+                <div class="form-field">
+                    <label for="company-website">
+                        Company Website
+                    </label>
+
+                    <input
+                        id="company-website"
+                        type="text"
+                        name="company-website"
+                    >
+                </div>
+
+
+                <div class="form-field">
+                    <label for="business-email">
+                        Business Email
+                    </label>
+
+                    <input
+                        id="business-email"
+                        type="email"
+                        name="business-email"
+                    >
+                </div>
+
+            </form>
+
+
+            <div class="form-footer">
+
+                <button class="button" type="button">
+                    Next
+                </button>
+
+                <div class="progress-bar">
+                    <img class="active" src="dash.png" alt="">
+                    <img src="dash.png" alt="">
+                    <img src="dash.png" alt="">
+                </div>
+
             </div>
-            <div style="display: flex; flex-direction: row; justify-content: space-between;">
-                <a href="https://www.elevenlabs.io/contact-sales" target="_blank">Next</a>
-                <img src="dash.png" width="10px">
-            </div>
+
         </div>
-    </div>
+
+    </section>
 
 </body>
+
 </html>
